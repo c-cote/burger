@@ -1,0 +1,82 @@
+/* 
+04 css :: chris cote
+*/
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: url(../img/bgBurger.jpg) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 20px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0px auto;
+  padding: 0;
+}
+
+.header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 2px solid #999999;            
+  background-color: #ffffff;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  zoom: 1;
+  min-height: 70px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  line-height: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin: 10px;
+  padding: 10px;
+}
+
+.panel {
+  border-radius: 10px;
+  border: 2px solid #999999;            
+  background-color: #ffffff;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  zoom: 1;
+  min-height: 70px;
+  padding: 10px;
+  margin: 0;
+}
+
+.btn-info {
+  float: right;
+  margin: 0 5px 0 0;
+}
